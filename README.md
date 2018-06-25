@@ -38,3 +38,6 @@ Luego de definir las principales caracteristicas, se realizo un prototipo digita
 [Prototipo_Móvil] (https://marvelapp.com/6gc097g)
 
 
+**Primera parte de estructura de HTML, con llamado a la Data donde se encuentran todos los cohorts.**
+![firstpart](https://user-images.githubusercontent.com/39094762/41842278-56d9d500-7838-11e8-96c7-52466ccc7645.jpg)
+

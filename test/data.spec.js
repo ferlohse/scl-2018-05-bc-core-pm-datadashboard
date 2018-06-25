@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 describe('data',()=>{
-=======
-describe('data', ()=>{
->>>>>>> 967e75c816cd7fa5b2600ddbc5862a1fbe5aba9d
+
 
   it('debería exponer función computeUsersStats en objeto global',() => {
     assert.isFunction(computeUsersStats);

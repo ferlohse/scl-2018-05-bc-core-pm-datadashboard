@@ -23,39 +23,51 @@
                <div class="row justify-container-start">
                     <div class="col-12">
                         <!-- logotipo -->
-                        <img src="../Img/LAB-SIN ESLOGAN.png" class="img-fluid" alt="responsive image"> 
+                             <img src="../Img/LAB-SIN ESLOGAN.png" class="img-fluid" alt="responsive image"> 
                         <!-- Boton de busqueda de almunas -->
-                        <a href="#" class="btn btn-primary " tabindex="-1" role="button" aria-disabled="true"><h2>Buscar</h2></a>
+                             <button type="button" class="btn btn-primary " aria-disabled="true" onclick="busqueda()">buscar</button>
                     </div>
                </div>
-                  <!-- div de amarillo con titulo de Data Dashboard -->
-              <div class="row">
-                    <div class="col-12 banner"><h1>Data Dashboard</h1></div>
-              </div>
-                <!-- div de rosa con titulo de Data Dashboard -->
-              <div class="row">
-                  <div class="col-12 banner2"></div>
-            </div>
-       </div> 
-    </header>
+                     <!-- div de amarillo con titulo de Data Dashboard -->
+                     <div class="row">
+                        <div class="col-12 banner"><h1>Data Dashboard</h1></div>
+                     </div>
+                     <!-- div de rosa con titulo de Data Dashboard -->
+                    <div class="row">
+                        <div class="col-12 banner2"></div>
+                    </div>
+         </div> 
+     </header>
 
        <!-- Cuerpo -->
-      <div class="box1">
-           <div class="container-fluid">
-               <div class="row">
-                   <div class="col-12"><img src="../Img/mujer.jpg" alt="responsive image">
-                  <div id="boxD"></div>
-                  </div>
-               </div>
-          </div>
+      <div id="box1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12"><img src="../Img/mujer.jpg" alt="responsive image">
+                    <!-- Ingreso de datos -->
+                        <div id="box2">
+                            <form>   
+                             <!-- Selección Cohorts -->
+                                 <div class="form-group"> 
+                                    <label for="state_id" class="control-label">Selección Cohorts</label>
+                                    <select class="form-control" id="cohortsdata"></select>                    
+                                 </div> 
+                                     <!-- Nombre -->
+                                        <div class="form-group"> 
+                                            <label for="full_name_id" class="control-label">Nombre</label>
+                                                <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="Mariana Costa">
+                                        </div> 
+                                           <!-- Submit Button -->
+                                                <div class="form-group"> 
+                                                    <button type="submit" class="btn btn-primary">Ir</button>
+                                                </div>      
+                            </form>
+                      </div>
+                </div>
+            </div>
+        </div>
       </div>
       
-
- 
-
-
-
- 
     <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

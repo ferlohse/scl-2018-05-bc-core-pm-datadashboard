@@ -3,7 +3,7 @@ body {
     padding: 0px;
     margin: 0px;
 }
-/*  CCS DESKTOP */
+/*  ------------CCS DESKTOP----------- */
 
 /*logotipo Laboratoria*/
 .container-fluid img { 
@@ -11,8 +11,8 @@ body {
     padding: 1em;
 }
 
-/*boton buscar*/
-.container-fluid a {
+/*boton buscador*/
+.container-fluid button {
     width: 150px;
     height:40px ;
     background-color: #ff009E;
@@ -20,10 +20,6 @@ body {
     position:absolute;
     right: 25px;
     top:15px;   
-}
- /*texto boton buscar*/
-.container-fluid h2 {
-    font-size: 20px;
 }
 
 /*Banner Data Dashboard amarillo*/
@@ -42,7 +38,7 @@ body {
 
 /* Texto Banner Data Dashboard*/
 .container-fluid h1 {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     color:#000000;
     padding: 1em;
@@ -50,29 +46,48 @@ body {
 }
 
 /* Imagen de mujer */
-.box1 img {
+#box1 img {
     width: 100%;
     padding: 0px;
     margin: 0px;  
 }
 
 /* box rosa transparente */
-.box1 #boxD {
+#box1 #box2 {
     width: 400px;
     height: 300px;
-    padding: 0px;
     background-color: #ff009E;
     position: absolute;
-    left:20%;
+    left:30%;
     top:50px;
-    opacity: 0.5;
+    opacity: 0.9;
     border-radius: 20px;
 
 }
 
+/* Ocultar box2 */
+#box2{
+    visibility: hidden; 
+    }
+
+/*Seleccion de cohorts */
+#box2 form {
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    text-align: center;
+    color: white;
+}
+
+/*Seleccion de cohorts- boton IR */
+#box2 form button {
+    margin-top: 180px;
+    margin-right: 9%; 
+}
 
 
-/*  CCS MÓVIL */
+/* -------------- CCS MÓVIL ----------------*/
 
 @media only screen and (max-width: 600px) {
   
@@ -82,7 +97,7 @@ body {
     }
 
     /*boton buscar*/
-    .container-fluid a {
+    .container-fluid button {
         width: 100px;
         height: 25px;
         background-color: #ff009E;
@@ -90,11 +105,8 @@ body {
         position:absolute;
         right: 25px;
         top:10px; 
-    }
-
-    /*texto boton buscar*/
-    .container-fluid h2 {
-        font-size: 10px;
+        font-size: 11px;
+        
     }
     
     /*Banner Data Dashboard*/
@@ -113,25 +125,56 @@ body {
     }
 
     /* Imagen de mujer */
-    .box1 img {
+    #box1 img {
         width: 100%;
         padding: 0px;
         margin: 0px;  
     }
 
     /* box rosa transparente */
-    .box1 #boxD {
-        width: 200px;
-        height: 150px;
-        padding: 0px;
+    #box1 #box2 {
+        width: 150px;
+        height: 170px;
         background-color: #ff009E;
         position: absolute;
-        left:20%;
-        top:30px;
-        opacity: 0.5;
+        left:30%;
+        top:18px;
         border-radius: 20px;
-    
     }
-    
+    /*Seleccion de cohorts */
+    #box2 form {
+        font-size: 8px;
+        width: 60%;
+        height: 7px;
+        position: absolute;
+        left: 20%;
+        top: 10%;
+        text-align: center;
+        color: white;
+    }
 
+    #box2 form label {
+        font-size: 10px;
+    }
+
+    #box2 .form-group select  {
+        height: 5px;
+        font-size: 7px;
+        height:30px;
+    }
+
+    #box2 .form-group #full_name_id {
+        font-size: 7px;
+        text-align: center;
+    }
+
+    #box2 .form-group button {
+       width:50%;
+       height: 15px;
+       font-size: 7px;
+       margin-top: 115px;
+       margin-right: 0px;
+       padding: 0px;
+       border-radius: 1px;
+    }
 }
